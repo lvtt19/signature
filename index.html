@@ -47,6 +47,10 @@
 			list-style: none;
 		}
 
+		span {
+			color: #a28c3b;
+		}
+
 		.wrapper {
 			width: 100%;
 			table-layout: fixed;
@@ -152,7 +156,10 @@
 		}
 
 		.two-columns {
-			padding: 0 50px 10px;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			padding: 0 20px;
 		}
 
 		.two-columns .column {
@@ -170,22 +177,28 @@
 		}
 
 		.contacts-title {
-			text-align: center;
-			padding: 30px 0;
+			font-family: 'Merriweather', serif;
 			text-transform: uppercase;
+			line-height: 1.6em;
+			text-align: center;
+			color: #a28c3b;
+			padding: 30px 0;
 			font-size: 18px;
 		}
 
 		.name {
 			text-transform: uppercase;
-			padding-bottom: 5px;
+			padding-bottom: 10px;
+			font-size: 18px;
 		}
 
 		.tel {
 			padding-bottom: 5px;
 		}
 
-		.email {}
+		.inform {
+			padding-bottom: 10px;
+		}
 	</style>
 </head>
 
@@ -208,7 +221,7 @@
 					<table width="100%">
 						<tr>
 							<td class="logo">
-								<a href="http://www.amerimaxcapital.com"><img src="AM Realty.png" alt="logo"
+								<a href="http://www.amerimaxcapital.com"><img src="../img/AM Realty.png" alt="logo"
 										title="amerimax capital"></a>
 							</td>
 						</tr>
@@ -261,73 +274,45 @@
 						</tr>
 						-->
 						<tr>
-							<td><img src="building.png" alt="building" class="image"></td>
+							<td><img src="../img/building.png" alt="building" class="image"></td>
 						</tr>
 						<tr>
-							<td><img src="map.png" alt="map" class="map"></td>
+							<td><img src="../img/map.png" alt="map" class="map"></td>
 						</tr>
 						<tr>
-							<td><img src="info.png" alt="info" class="info"></td>
+							<td><img src="../img/info.png" alt="info" class="info"></td>
+						</tr>
+
+						<tr>
+							<td>
+								<p class="contacts-title">FOR SALE INFORMATION PLEASE CONTACT</p>
+							</td>
 						</tr>
 						<tr>
 							<td class="two-columns">
-								<p class="contacts-title">FOR SALE INFORMATION PLEASE CONTACT</p>
 								<table class="column">
 									<tr>
 										<td class="contacts">
-											<p class="name">ANDREW BERRY</p>
-											<p class="tel"><a href="tel:+12125895124">(212) 589 5124</a></p>
-											<p class="email"><a href="mailto:andrew.berry@cushwake.com">andrew.berry@cushwake.com</a></p>
+											<p class="name">Dmitry Gordon</p>
+											<p>Amerimax Capital LLC</p>
+											<p class="inform">Real Estate</p>
+											<p class="tel">Direct: <a
+													href="tel:+19178269732"><span>917.826.9732</span></a></p>
+											<p class="tel">Office: <a
+													href="tel:+12128037260"><span>212.803.7260</span></a></p>
 										</td>
 									</tr>
 								</table>
 								<table class="column">
 									<tr>
-										<td class="contacts">
-											<p class="name">IAN BROOKS</p>
-											<p class="tel"><a href="tel:+12125895107">(212) 589 5107</a></p>
-											<p class="email"><a href="mailto:ian.brooks@cushwake.com">ian.brooks@cushwake.com</a></p>
-										</td>
-									</tr>
-								</table>
-								<table class="column">
-									<tr>
-										<td class="contacts">
-											<p class="name">CHARLIE GRAVINAS</p>
-											<p class="tel"><a href="tel:+12128417580">(212) 841 7580</a></p>
-											<p class="email"><a href="mailto:charlie.gravina@cushwake.com">charlie.gravina@cushwake.com</a></p>
-										</td>
-									</tr>
-								</table>
-								<table class="column">
-									<tr>
-										<td class="contacts">
-											<p class="name">ROBERT SHAPIRO</p>
-											<p class="tel"><a href="tel:+12126607717">(212) 660 7717</a></p>
-											<p class="email"><a href="mailto:robert.shapiro@cushwake.com">robert.shapiro@cushwake.com</a></p>
-										</td>
-									</tr>
-								</table>
-								<table class="column">
-									<tr>
-										<td class="contacts">
-											<p class="name">JORDAN SUTTON</p>
-											<p class="tel"><a href="tel:+12125895101">(212) 589 5101</a></p>
-											<p class="email"><a href="mailto:jordan.sutton@cushwake.com">jordan.sutton@cushwake.com</a></p>
+										<td class="logo">
+											<a href="http://www.amerimaxcapital.com"><img src="../img/AM Realty.png"
+													alt="logo" title="amerimax capital"></a>
 										</td>
 									</tr>
 								</table>
 							</td>
 						</tr>
-
-						<table width="100%">
-							<tr>
-								<td class="logo">
-									<a href="http://www.amerimaxcapital.com"><img src="AM Realty.png" alt="logo"
-											title="amerimax capital"></a>
-								</td>
-							</tr>
-						</table>
 
 						<tr>
 							<td height="10" style="background-color: #313131;"></td>
